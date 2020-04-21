@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Playfair+Display');
+
+/*
+  BLUE: #003bde;
+  GRAY: #f3f3f3;
+*/
+
+/* Simple Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+  padding: 10px 60px;
+  align-items: center; /* will align along center of the y-axis */
+}
+
+nav h1{
+  font-family: "Open Sans", sans-serif;
+  color: #003bde;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+nav li {
+  list-style: none;
+  margin: 15px;
+}
+
+nav a {
+  color: black;
+  text-transform: none;
+  font-family:  "Open Sans", sans-serif;
+  text-decoration: none; /* text-decoration none gets rid of the underlines */
+
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-5 img {
+  width: 100%
+}
+
+.col-5 h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  padding: 30px 60px;
+}
